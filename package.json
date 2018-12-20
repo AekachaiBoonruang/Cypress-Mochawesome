@@ -1,0 +1,19 @@
+{
+  "name": "cy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open",
+    "cypress": "./node_modules/.bin/cypress",
+    "cypress:test": "./node_modules/.bin/cypress run --reporter mochawesome"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^3.1.3",
+    "mocha": "^5.2.0",
+    "mochawesome": "^3.1.1"
+  }
+}
